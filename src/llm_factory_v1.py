@@ -7,7 +7,7 @@ from src.auth.gateway import GatewayAuthenticator  # Assuming a gateway authenti
 from src.config.settings import Settings  # Assuming a settings class to hold configurations
 
 
-class LLMFactory:
+class LLMFactory_V1:
     """
     A factory class for creating and configuring Language Models (LLMs).
     Supports local models and authenticated gateway access.

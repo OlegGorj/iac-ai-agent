@@ -1,5 +1,5 @@
 
-from src.llm_factory import LLMFactory
+from llm_factory_v1 import LLMFactory
 from src.config.settings import Settings
 
 settings = Settings()
